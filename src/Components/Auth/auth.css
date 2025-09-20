@@ -1,0 +1,174 @@
+/* ========= Global Reset ========= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.auth-body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ========= Navbar (Landing/Auth) ========= */
+.auth-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: linear-gradient(90deg, #ff7043, #ff5722);
+  color: white;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.15);
+}
+
+/* Logo */
+.auth-navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* Navbar Links */
+.auth-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.auth-links li {
+  margin: 0;
+}
+
+.auth-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.auth-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffe0b2;
+  transform: scale(1.05);
+}
+
+/* ========= Landing Page ========= */
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+  background: linear-gradient(135deg, #ffcc80, #ff7043, #ff5722);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.landing h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.landing p {
+  font-size: 20px;
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+/* ========= Auth Forms ========= */
+.form-container {
+  max-width: 420px;
+  margin: 80px auto;
+  padding: 35px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+}
+
+.form-container input:focus {
+  border: 1px solid #ff7043;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #ff7043, #ff5722);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-container button:hover {
+  background: linear-gradient(90deg, #ff5722, #e64a19);
+  transform: translateY(-2px);
+}
+
+/* ========= Google Auth Button ========= */
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #db4437;
+  margin-top: 15px;
+}
+
+.google-btn:hover {
+  background-color: #c23321;
+}
+
+/* ========= Divider ========= */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.divider span {
+  margin: 0 10px;
+  white-space: nowrap;
+}
+
+/* ========= Error Text ========= */
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+  text-align: left;
+}
