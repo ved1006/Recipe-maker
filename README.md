@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# 🍳 Recipe Maker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Recipe Maker is a simple and interactive web application that helps users create, organize, and manage their favorite recipes. The project is designed with a clean UI and smooth user experience, making cooking more fun and organized.  
 
-## Available Scripts
+In addition to recipe management, the app includes a **smart AI-powered Chatbot** to assist users with cooking-related queries, ingredient suggestions, and personalized tips.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ➕ **Add Recipes**: Create new recipes with ingredients and instructions.  
+- 📝 **Edit & Delete**: Update or remove recipes anytime.  
+- 🔍 **Search Functionality**: Quickly find recipes by name or ingredient.  
+- 🤖 **AI Chatbot**: Get instant cooking advice, ingredient substitutions, or meal suggestions powered by AI.  
+- 📱 **Responsive Design**: Works seamlessly on desktop and mobile.  
+- 🔐 **Authentication**: Keep your recipes private with user login.  
+- ☁️ **Cloud Storage**: Recipes are stored securely with Firebase.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React, React Router, CSS  
+- **Backend/Database:** Firebase (Firestore, Auth, Storage)  
+- **AI Integration:** GEMINI API (for the chatbot feature)  
+- **Hosting:** Firebase Hosting  
+- **Version Control:** Git & GitHub  
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+- **Demo Link:** https://maker-recipe.web.app
